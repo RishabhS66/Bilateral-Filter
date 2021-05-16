@@ -10,9 +10,9 @@ The bilateral filter can be formulated as :
 </div>
 <br>
 
-As the range parameter σr increases, the bilateral filter gradually approaches Gaussian convolution more closely because the range Gaussian widens and flattens, which means that it becomes nearly constant over the intensity interval of the image. Thus, as σr increases, the image gets more blurred.
+As the range parameter <img src = "https://user-images.githubusercontent.com/39689610/118401148-1a689f80-b682-11eb-9104-6d8ebe4f4e11.png" width = "15.8" height = "12"> increases, the bilateral filter gradually approaches Gaussian convolution more closely because the range Gaussian widens and flattens, which means that it becomes nearly constant over the intensity interval of the image. Thus, as <img src = "https://user-images.githubusercontent.com/39689610/118401148-1a689f80-b682-11eb-9104-6d8ebe4f4e11.png" width = "15.8" height = "12"> increases, the image gets more blurred.
 
-As the spatial parameter <img src = "https://user-images.githubusercontent.com/39689610/118399970-564d3600-b67d-11eb-9105-079181af4a14.png" width = "300" height = "409"> increases, the larger features get smoothened.
+As the spatial parameter <img src = "https://user-images.githubusercontent.com/39689610/118401209-5b60b400-b682-11eb-9077-cbef317da2ef.png" width = "18" height = "12"> increases, the larger features get smoothened.
 
 
 This repository includes code that applies a bilateral filter on the image _MinaretLake.jpg_.
